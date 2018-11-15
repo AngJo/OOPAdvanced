@@ -1,6 +1,19 @@
 #include <iostream>
+#include "Module.h"
+#include "Docent.h"
+#include "Student.h"
+#include <vector>
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    Module module;
+    Docent docent;
+    Student student;
+
+    module.createModules();
+
+
     return 0;
 }
